@@ -1,0 +1,15 @@
+
+header {
+    padding: 25px;
+}
+header .card-title small {
+    font-size: 65%;
+}
+
+.collection {
+    margin: 0;
+}
+.collection .collection-item i {
+    float: left;
+    padding: 15px 10px 10px 0;
+}
