@@ -1,6 +1,6 @@
 header {
-    padding: 25px;
-}
+     padding: 25px;
+ }
 header .card-title small {
     font-size: 65%;
 }
@@ -14,4 +14,10 @@ header .card-title small {
 }
 .collection .collection-item i.fa {
     padding-top: 10px;
+}
+
+@media (max-width: 375px) {
+    .collection .collection-item i {
+        display: none !important;
+    }
 }
